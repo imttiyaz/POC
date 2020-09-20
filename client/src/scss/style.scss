@@ -1,0 +1,42 @@
+// If you want to override variables do it here
+@import "variables";
+
+// Import styles
+@import "~@coreui/coreui/scss/coreui";
+
+// If you want to add something do it here
+@import "custom";
+
+
+.bg-clouds {
+    background-image: url("../assets/img/brand/banner-bg.jpg");
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+.bg-datawings {
+    background-image: url("../assets/img/brand/homepagebird.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 35% !important;
+}
+.bg-transperent {
+    background: transparent;
+}
+.bg-color {
+    color: #a1b4c6;
+}
+.bg-logo {
+    background-image: url("../assets/img/brand/cropped-datametica_footer_logo-2.png");
+    background-repeat: no-repeat;
+    background-position:10px 10px;
+    background-size: 35% !important;
+}
+.m-top-30 {
+    margin-top: 30px;
+}
+
+.dropdown-item-custom {
+    position: relative;
+    padding: 0px 15px; 
+    border-bottom: none;
+}
